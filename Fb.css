@@ -1,14 +1,16 @@
 .header{
     width: 100%;
     height: 85px;
-    background: rgb(33, 33, 145);
+    background: #0866ff;
 }
 .logo{
-    width: 50%;
+    width: 64%;
     padding-top: 23px;
+    float: left;
 }
 .login{
-    width: 50%;
+    width: 36%;
+    float: left;
 }
 .logo-style{
     color: #fff;
@@ -16,5 +18,32 @@
     text-decoration: none;
     font-weight: bold;
     font-family:Helvetica Neue,Arial, Helvetica, sans-serif;
-    margin-left: 152px;
+    margin-left: 140px;
+}
+.login-label{
+    color: #fff;
+    font-size: 12px;
+}
+body{
+    font-family:Helvetica Neue,Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.forgot-pass{
+    color: #91a3ca;
+    font-size: 12px;
+    text-decoration: none;
+}
+.table-style{
+    padding-top: 13px;
+}
+.login-button{
+    color: #fff;
+    background-color: #0956d1;
+    height: 22px;
+    border: #063177 solid;
+    border-color: #063177;
+    cursor: pointer;
+}
+.login-button:hover{
+    background-color: #1e73fd;
 }
