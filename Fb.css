@@ -47,3 +47,107 @@ body{
 .login-button:hover{
     background-color: #1e73fd;
 }
+.main-body{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(233, 240, 241);
+}
+.left-section{
+    width: 60%;
+    float: left;
+    /* background-color: aqua; */
+    height: 650px;
+}
+.right-section{
+    width: 40%;
+    float: left;
+    /* background-color: greenyellow; */
+    height: 650px;
+}
+.body-text{
+    font-weight: bold;
+    font-size: 25px;
+    font-family:Helvetica Neue,Arial, Helvetica, sans-serif;
+    margin-left: 140px;
+    margin-top: 80px;
+}
+.body-image{
+    margin-left: 175px;
+    margin-top: -40px;
+    width: 310px;
+}
+.create-account{
+    font-size: 40px;
+    font-family:Helvetica Neue,Arial, Helvetica, sans-serif;
+}
+.sub-head{
+    margin-top: -32px;
+    margin-left: 2px;
+}
+.name-field{
+    border-radius: 4px;
+    height: 31px;
+    font-family:Helvetica Neue,Arial, Helvetica, sans-serif;
+}
+.surname-field{
+    border-radius: 4px;
+    height: 31px;
+    margin-left: 2px;
+    font-family:Helvetica Neue,Arial, Helvetica, sans-serif;
+}
+.id{
+    width: 339px;
+    height: 31px;
+    border-radius: 4px;
+    margin-top: 8px;
+    font-family:Helvetica Neue,Arial, Helvetica, sans-serif;
+}
+.pass{
+    width: 339px;
+    height: 31px;
+    border-radius: 4px;
+    margin-top: 8px;
+    font-family:Helvetica Neue,Arial, Helvetica, sans-serif;
+}
+.dob-gender{
+    font-family:Helvetica Neue,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.dob{
+    height: 28px;
+    border-radius: 4px;
+    font-family:Helvetica Neue,Arial, Helvetica, sans-serif;
+    margin-top: -12px;
+}
+.gender{
+    font-weight: bold;
+    font-family:Helvetica Neue,Arial, Helvetica, sans-serif;
+    margin-top: -6px;
+}
+.terms{
+    font-size: 12px;
+    font-family:Helvetica Neue,Arial, Helvetica, sans-serif;
+    margin-top: 18px;
+}
+.button{
+    background-color: #2a832dd3;
+    border: none;
+    color: white;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family:Helvetica Neue,Arial, Helvetica, sans-serif;
+    width: 142px;
+    height: 33px;
+    margin-top: 1px;
+}
+.button:hover{
+    background-color: green;
+}
