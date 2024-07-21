@@ -1,0 +1,36 @@
+$(document).ready(function(){
+    $("#form-id").validate({
+        rules:{
+            fname:{
+                required:true,
+                minlength:4,
+                maxlength:20
+            },
+            sname:{
+                required:true,
+                minlength:4,
+                maxlength:20
+            },
+            mail:{
+                required:true,
+                email:true
+            },
+            password:{
+                required:true,
+                maxlength:20
+            },
+            day:{
+                required:true
+            },
+            month:{
+                required:true
+            },
+            year:{
+                required:true
+            },
+            gndr:{
+                required:true
+            }
+        }
+    })
+})

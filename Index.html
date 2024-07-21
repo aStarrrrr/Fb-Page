@@ -40,14 +40,14 @@
             <div class="right-section">
                 <h2 class="create-account">Create an account</h2>
                 <p class="sub-head">It's quick and easy.</p>
-                <form>
-                    <input type="text" placeholder="First name" class="name-field">
-                    <input type="text" placeholder="Surname" class="surname-field">
-                    <input type="text" placeholder="Moblie number or email address" class="id">
-                    <input type="text" placeholder="New password" class="pass">
+                <form id="form-id">
+                    <input name="fname" type="text" placeholder="First name" class="name-field">
+                    <input name="sname" type="text" placeholder="Surname" class="surname-field">
+                    <input name="mail" type="text" placeholder="Moblie number or email address" class="id">
+                    <input name="password" type="text" placeholder="New password" class="pass">
                     <p class="dob-gender">Birthday</p>
                     <select name="day" class="dob">
-                        <option value="1">Day</option>
+                        <option value="">Day</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -81,7 +81,7 @@
                         <option value="31">31</option>
                     </select>
                     <select name="month" class="dob">
-                        <option value="1">Month</option>
+                        <option value="">Month</option>
                         <option value="1">January</option>
                         <option value="2">February</option>
                         <option value="3">March</option>
@@ -96,7 +96,7 @@
                         <option value="12">December</option>
                       </select>
                       <select name="year" class="dob">
-                        <option value="1">Year</option>
+                        <option value="">Year</option>
                         <option value="2024">2024</option>
                         <option value="2023">2023</option>
                         <option value="2022">2022</option>
@@ -134,11 +134,11 @@
                         <option value="1990">1990</option>
                     </select>
                     <p class="dob-gender">Gender</p>
-                    <input type="radio" class="gender">
+                    <input type="radio" class="gender" name="gndr">
                     <label>Male</label>
-                    <input type="radio" class="gender">
+                    <input type="radio" class="gender" name="gndr">
                     <label>Female</label>
-                    <input type="radio" class="gender">
+                    <input type="radio" class="gender" name="gndr">
                     <label>Custom</label>
                     <p class="terms">By clicking Sign Up, you agree to our <strong>Terms, Data Policy</strong> and<strong> Cookie Policy.</strong><br> You may receive SMS notifications from us and can opt at any time</p>
                     <button class="button">Sign up</button>
@@ -146,5 +146,8 @@
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="Script.js"></script>
 </body>
 </html>
